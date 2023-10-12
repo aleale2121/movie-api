@@ -9,8 +9,7 @@ using Application.Common.DTOs.Cinema;
 using Application.Common.DTOs.Cinema;
 using Application.Contracts.Persistence;
 
-namespace Application.DTOs.Cinema.Validators;
-
+namespace Application.Common.DTOs.Cinema.Validators;
 
 public class ICinemaDtoValidator : AbstractValidator<ICinemaDTO>
 {

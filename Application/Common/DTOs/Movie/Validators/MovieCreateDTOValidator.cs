@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Application.Common.DTOs.Movie;
 using Application.Contracts.Persistence;
 
-namespace Application.DTOs.Movie.Validators;
+namespace Application.Common.DTOs.Movie.Validators;
 
 public class CreateMovieDtoValidator : AbstractValidator<CreateMovieDTO>
 {

@@ -6,7 +6,7 @@ namespace Application.Contracts.Persistence;
 
 public interface IUnitOfWork : IDisposable
 {
-    ICinemaRepository PostRepository { get; }
-    // ICommentRepository CommentRepository { get; }
+    ICinemaRepository CinemaRepository { get; }
+    IMovieRepository MovieRepository { get; }
     Task Save();
 }
