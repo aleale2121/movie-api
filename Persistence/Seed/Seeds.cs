@@ -39,35 +39,37 @@ public static class Seeds
         }
     };
 
-    public static List<Movie> Movies = new List<Movie>{
+    public static List<Movie> Movies = new List<Movie>
+    {
         new Movie
         {
             Id = 1,
             Title = "Movie 1",
             Genre = "Genre 1",
-            ReleaseYear = new DateTime(2022, 1, 1)
+            ReleaseYear = new DateTime(2022, 1, 1, 0, 0, 0, DateTimeKind.Utc)
         },
         new Movie
         {
             Id = 2,
             Title = "Movie 2",
             Genre = "Genre 2",
-            ReleaseYear = new DateTime(2021, 2, 15)
+            ReleaseYear = new DateTime(2021, 2, 15, 0, 0, 0, DateTimeKind.Utc)
         },
         new Movie
         {
             Id = 3,
             Title = "Movie 3",
             Genre = "Genre 3",
-            ReleaseYear = new DateTime(2020, 5, 10)
+            ReleaseYear = new DateTime(2020, 5, 10, 0, 0, 0, DateTimeKind.Utc)
         },
         new Movie
         {
             Id = 4,
             Title = "Movie 4",
             Genre = "Genre 4",
-            ReleaseYear = new DateTime(2019, 8, 20)
+            ReleaseYear = new DateTime(2019, 8, 20, 0, 0, 0, DateTimeKind.Utc)
         }
     };
+
 
 }
